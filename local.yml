@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: localhost
   become: true
   tasks:
   - name: Install packages
@@ -8,3 +8,4 @@
         - ncdu
         - htop
         - nmap
+
